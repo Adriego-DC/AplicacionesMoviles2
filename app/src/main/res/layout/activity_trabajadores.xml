@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Centrado horizontal y vertical -->
+
+    <EditText
+        android:id="@+id/etTrabajadores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de trabajadores"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etDiasIniciales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Días iniciales"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCalcularDias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular días necesarios"/>
+
+    <TextView
+        android:id="@+id/tvResultadoDias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>

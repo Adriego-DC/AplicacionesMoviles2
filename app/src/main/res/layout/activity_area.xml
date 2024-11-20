@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Centrado horizontal y vertical -->
+
+    <EditText
+        android:id="@+id/etBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Base del triángulo"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura del triángulo"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCalcularArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Área"/>
+
+    <TextView
+        android:id="@+id/tvResultadoArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>

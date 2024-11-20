@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Centrado horizontal y vertical -->
+
+    <EditText
+        android:id="@+id/etNumeroCompuesto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingresa un número"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnVerificarCompuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar si es Compuesto"/>
+
+    <TextView
+        android:id="@+id/tvResultadoCompuesto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>

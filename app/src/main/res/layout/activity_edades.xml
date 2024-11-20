@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"> <!-- Centrado horizontal y vertical -->
+
+    <EditText
+        android:id="@+id/etEdadAna"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad de Ana"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnCalcularEdades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular edades"/>
+
+    <TextView
+        android:id="@+id/tvResultadoEdades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="18sp"
+        android:paddingTop="16dp"/>
+
+</LinearLayout>
